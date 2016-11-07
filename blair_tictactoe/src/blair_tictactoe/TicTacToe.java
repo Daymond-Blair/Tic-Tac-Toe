@@ -65,7 +65,7 @@ public class TicTacToe {
 			
 			gameBoard[gameBoardRow][gameBoardColumn] = playerID;
 			
-			if(GameOver(gameBoardRow, gameBoardColumn))
+			if(gameOver(gameBoardRow, gameBoardColumn))
 			{
 				playing = false;
 				printGameBoard();
@@ -96,7 +96,7 @@ public class TicTacToe {
 		System.out.println();
 	}
 	
-	public static boolean GameOver(int gameBoardRow, int gameBoardColumn)
+	public static boolean gameOver(int gameBoardRow, int gameBoardColumn)
 	{
 		//Check perpendicular victory
 		if(gameBoard[0][gameBoardColumn] == gameBoard[1][gameBoardColumn] && gameBoard[0][gameBoardColumn] == gameBoard[2][gameBoardColumn])
