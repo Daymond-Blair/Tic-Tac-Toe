@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-Text-based clone of the classic game "Tic-Tac-Toe". Java
+Another early early project. Havent messed with Java too much since this but it was cool to try out!
